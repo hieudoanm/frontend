@@ -10,6 +10,9 @@
     "dev": "vuepress dev docs --clean-cache",
     "update-package": "pnpm dlx vp-update"
   },
+  "dependencies": {
+    "vue-router": "4.6.2"
+  },
   "devDependencies": {
     "@eslint/js": "9.37.0",
     "@vuepress/bundler-vite": "2.0.0-rc.7",
