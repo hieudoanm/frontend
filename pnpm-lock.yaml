@@ -56,8 +56,8 @@ importers:
         specifier: 1.2.0
         version: 1.2.0(solid-js@1.9.9)(vinxi@0.5.8(@azure/identity@4.10.2)(@netlify/blobs@9.1.2)(@types/node@24.8.0)(db0@0.3.2)(encoding@0.1.13)(idb-keyval@6.2.2)(ioredis@5.7.0)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.30.1)(sass@1.93.2)(terser@5.43.1)(xml2js@0.6.2)(yaml@2.8.1))(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.30.1)(sass@1.93.2)(terser@5.43.1)(yaml@2.8.1))
       '@tanstack/solid-query':
-        specifier: 5.90.4
-        version: 5.90.4(solid-js@1.9.9)
+        specifier: 5.90.6
+        version: 5.90.6(solid-js@1.9.9)
       '@tanstack/solid-table':
         specifier: 8.21.3
         version: 8.21.3(solid-js@1.9.9)
@@ -3398,8 +3398,8 @@ packages:
     peerDependencies:
       vite: '>=6.0.0'
 
-  '@tanstack/query-core@5.90.3':
-    resolution: {integrity: sha512-HtPOnCwmx4dd35PfXU8jjkhwYrsHfuqgC8RCJIwWglmhIUIlzPP0ZcEkDAc+UtAWCiLm7T8rxeEfHZlz3hYMCA==}
+  '@tanstack/query-core@5.90.5':
+    resolution: {integrity: sha512-wLamYp7FaDq6ZnNehypKI5fNvxHPfTYylE0m/ZpuuzJfJqhR5Pxg9gvGBHZx4n7J+V5Rg5mZxHHTlv25Zt5u+w==}
 
   '@tanstack/router-utils@1.130.12':
     resolution: {integrity: sha512-vyk7qduNrVrJWgUXHqRyZrFLOL9YJ/4ycN5PbJ2cLRBln01NkG/abKTHi32V31yMehxkxAO0EoicicvalnV0FA==}
@@ -3409,8 +3409,8 @@ packages:
     resolution: {integrity: sha512-a05fzK+jBGacsSAc1vE8an7lpBh4H0PyIEcivtEyHLomgSeElAJxm9E2It/0nYRZ5Lh23m0okbhzJNaYWZpAOg==}
     engines: {node: '>=12'}
 
-  '@tanstack/solid-query@5.90.4':
-    resolution: {integrity: sha512-82nMtkIYFNGMAi5aPRFKxAQAZYpC/7MFii0vJ5RR8EaiuHbkn4y3KKBYVaaY01zWdTVgJ8cTWnwr5xhd0y1JTg==}
+  '@tanstack/solid-query@5.90.6':
+    resolution: {integrity: sha512-Ma5A3uQ2rqVCznR8FniNLHWYDFLtveVb2b+JMD1F+x3TgRTevVlGfiUfpL1KaFVWJMUX3ASvCB+aUQpeIBRDvA==}
     peerDependencies:
       solid-js: ^1.6.0
 
@@ -14480,7 +14480,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@tanstack/query-core@5.90.3': {}
+  '@tanstack/query-core@5.90.5': {}
 
   '@tanstack/router-utils@1.130.12':
     dependencies:
@@ -14509,9 +14509,9 @@ snapshots:
       - supports-color
       - vite
 
-  '@tanstack/solid-query@5.90.4(solid-js@1.9.9)':
+  '@tanstack/solid-query@5.90.6(solid-js@1.9.9)':
     dependencies:
-      '@tanstack/query-core': 5.90.3
+      '@tanstack/query-core': 5.90.5
       solid-js: 1.9.9
 
   '@tanstack/solid-table@8.21.3(solid-js@1.9.9)':
