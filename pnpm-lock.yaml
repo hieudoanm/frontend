@@ -44,7 +44,7 @@ importers:
         specifier: 2.6.0
         version: 2.6.0
 
-  packages/documentation/astro:
+  packages/astro:
     dependencies:
       '@astrojs/starlight':
         specifier: 0.36.2
@@ -72,13 +72,13 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
 
-  packages/documentation/docsify:
+  packages/docsify:
     devDependencies:
       docsify-cli:
         specifier: 4.4.4
         version: 4.4.4(encoding@0.1.13)
 
-  packages/documentation/react/docusaurus:
+  packages/react/docusaurus:
     dependencies:
       '@docusaurus/core':
         specifier: 3.9.2
@@ -118,7 +118,7 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
 
-  packages/documentation/vuepress:
+  packages/vuepress:
     dependencies:
       vue-router:
         specifier: 4.6.3
@@ -7241,12 +7241,6 @@ packages:
     engines: {node: '>=12.0.0', npm: '>=5.6.0'}
     hasBin: true
 
-  sitemap@8.0.0:
-    resolution: {integrity: sha512-+AbdxhM9kJsHtruUF39bwS/B0Fytw6Fr1o4ZAIAEqA6cke2xcoO2GleBw9Zw7nRzILVEgz7zBM5GiTJjie1G9A==}
-    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
-    deprecated: 'SECURITY: Multiple vulnerabilities fixed in 8.0.1 (XML injection, path traversal, command injection, protocol injection). Upgrade immediately: npm install sitemap@8.0.1'
-    hasBin: true
-
   sitemap@8.0.2:
     resolution: {integrity: sha512-LwktpJcyZDoa0IL6KT++lQ53pbSrx2c9ge41/SeLTyqy2XUNA6uR4+P9u5IVo5lPeL2arAcOKn1aZAxoYbCKlQ==}
     engines: {node: '>=14.0.0', npm: '>=6.0.0'}
@@ -8491,7 +8485,7 @@ snapshots:
 
   '@astrojs/sitemap@3.6.0':
     dependencies:
-      sitemap: 8.0.0
+      sitemap: 8.0.2
       stream-replace-string: 2.0.0
       zod: 3.25.76
 
@@ -17350,13 +17344,6 @@ snapshots:
   sisteransi@1.0.5: {}
 
   sitemap@7.1.2:
-    dependencies:
-      '@types/node': 17.0.45
-      '@types/sax': 1.2.7
-      arg: 5.0.2
-      sax: 1.4.1
-
-  sitemap@8.0.0:
     dependencies:
       '@types/node': 17.0.45
       '@types/sax': 1.2.7
